@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Paint App</title>
+</head>
+<body style="text-align: center">
+  <h1>Simple Paint App</h1>
+  <canvas id="paintCanvas" width="600" height="400" style="border: 1px solid black;"></canvas>
+  <br>
+  <button onclick="clearCanvas()">Reset Canvas</button>
+  <br>
+  <span id="hitMissText"></span>
+  <script src="script.js"></script>
+</body>
+</html>
